@@ -1,0 +1,29 @@
+.activity{
+    height:20vh;
+    margin-top:1rem;
+}
+.activity header{
+    background:rgba(204, 204, 204, 0.328);
+    padding:0.3rem 0.2rem;
+    border-radius:3px;
+}
+
+.activity svg{
+    height:1rem;
+}
+
+.activity ul{
+    margin-top:.5rem;
+    overflow-y:auto;
+    white-space: pre-wrap;
+}
+
+.activity ul li{
+    grid-template-columns: 20% 40% 40%;
+    justify-items: center;
+    font-size:0.9rem;
+    text-align:center;
+    margin-bottom: 1rem;
+    border-bottom:1px solid rgba(204, 204, 204, 0.287);
+    padding-bottom: 0.4rem;
+}
